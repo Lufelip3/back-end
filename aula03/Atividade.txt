@@ -1,0 +1,46 @@
+1. Linguagem de programação voltada para desenvolvimento web, usada para criar páginas dinâmicas.
+
+2. Possível, mas não recomendado. PHP é feito para servidores web.
+
+3.
+Servidor (Apache/MySQL) <- No nosso caso utilizamos o XAMPP
+Interpretador PHP
+Editor de código
+(Opcional) Banco de dados
+
+4. 
+<?php
+   // código aqui
+?>
+
+5.
+$nome = "Luis";
+$idade = 25;
+
+6.
+-->if/else<--
+if ($idade >= 18) { echo "Maior"; } else { echo "Menor"; }
+
+-->for<--
+for ($i=0; $i<5; $i++) { echo $i; }
+
+-->while<--
+$i=0; while($i<5){ echo $i; $i++; }
+
+7.
+function soma($a,$b){ return $a+$b; }
+echo soma(2,3);
+
+8.
+GET: envia dados pela URL (menos seguro).
+
+POST: envia dados no corpo da requisição (mais seguro).
+
+9. 
+echo "Olá usuário!";
+
+10.
+<?php
+   echo "Hello World";
+?>
+
